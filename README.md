@@ -145,13 +145,13 @@ Type into your "Search bar" the worlds "edit environment"
 ![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/env_var.png)
 
 Then add in your system environment variables
-
+```
 RDBASE = C:\RDKit; << Variable
 C:\Python36 in PATH;
 C:\devel\rdkit-Release_2020_03_6\lib in PATH;
 C:\devel\boost_1_73_0\lib in PATH;
 C:\devel\rdkit-Release_2020_03_6 in PYTHONPATH.
-
+```
 
 
 Links and inspiration
