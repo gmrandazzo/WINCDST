@@ -21,12 +21,12 @@ Visual Studio
 -------------
 Download and install Visual Studio Community edition from this link https://visualstudio.microsoft.com/downloads/
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/vs_community.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/vs_community.png)
 
 Be sure to select the Desktop development with C++ "Workload" and in individual components
 to have the latest MSVC as reported in this example:
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/vs_packages.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/vs_packages.png)
 
 CMake
 -----
@@ -93,13 +93,13 @@ Then in your PowerShell run the following command
 
 The configured components should appear like that
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/boost_components.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/boost_components.png)
 
 WARNING: Do not pay attention to the "default address-model : 32 bit". This is a bug of boost.
 If you run a 64bit system and you have installed MSVC x64 will for sure compile 64 bit libraries.
 
 When the compilation is finished, your PowerShell should appear like that.
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/boost_completed.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/boost_completed.png)
 
 
 RDKit
@@ -124,7 +124,7 @@ cmake.exe -DBoost_NO_BOOST_CMAKE=OFF -DRDK_BUILD_PYTHON_WRAPPERS=ON -DBOOST_ROOT
 
 If everything goes fine should looks like that:
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/rdkit_config_ok.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_config_ok.png)
 
 Then switch from PowerShell to "cmd", load the MSVC environment/builder and compile your rdkit.
 
@@ -136,13 +136,13 @@ msbuild /m:12 /p:Configuration=Release INSTALL.vcxproj
 
 If everything goes fine, the prompt should looks like that.
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/rdkit_compile_ok.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_compile_ok.png)
 
 
 Then insert in your environment the RDKit paths.
 Type into your "Search bar" the worlds "edit environment"
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/master/images/env_var.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/env_var.png)
 
 Then add in your system environment variables
 
