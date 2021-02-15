@@ -153,6 +153,41 @@ C:\devel\boost_1_73_0\lib in PATH;
 C:\devel\rdkit-Release_2020_03_6 in PYTHONPATH.
 ```
 
+PLEASE BE SURE THAT YOU DO NOT MAKE TYPOS!
+
+
+Then open a PowerShell, run python and load rdkit to see if everything is working:
+
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_test_ok.png)
+
+Problems and pitfalls
+---------------------
+Sometimes even if you have compiled  your rdkit and boost libraries without error,
+you may end-up into the following error:
+
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_test_ok.png)
+
+
+Then to solve this just grub your boost_python library, in this case boost_python38-vc142-mt-x64-1_73.dll
+and place it into the directory where rdBase.pyd is located.
+
+This normally would solve your problem. If not, then just debug the rdBase.pyd missing libraries by
+loading the Visual Studio environment variables utilised to compile rdkit and try to
+see which missing libraries are needed. For that open a PowerShell, then navigate into the rdkit-Release_2020_03_6 and into rdkit
+Then run this
+
+```
+cd C:\devel\rdkit-Release_2020_03_6\rdkit
+cmd
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+dumpbin /dependents rdBase.pyd
+```
+
+You should see something like that, that tells you which library are missing.
+
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_debug_missing_libraries.png)
+
+Then you can try to solve it by copying the missing libraries into the same directory C:\devel\rdkit-Release_2020_03_6\rdkit
 
 Links and inspiration
 ---------------------
@@ -164,3 +199,4 @@ https://nielsberglund.com/2021/01/03/build-boost.python--numpy-in-windows/
 https://github.com/ZhangJunQCC/RDKit-Python36-Windows-Binary
 https://github.com/rdkit/rdkit/blob/master/Docs/Book/Install.md
 https://github.com/rdkit/rdkit/issues/2841
+https://stackoverflow.com/questions/20201868/importerror-dll-load-failed-the-specified-module-could-not-be-found
