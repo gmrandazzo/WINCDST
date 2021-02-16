@@ -165,7 +165,7 @@ Problems and pitfalls
 Sometimes even if you have compiled  your rdkit and boost libraries without error,
 you may end-up into the following error:
 
-![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_test_ok.png)
+![ScreenShot](https://github.com/gmrandazzo/WINCDST/blob/main/images/rdkit_import_error.png)
 
 
 Then to solve this just grub your boost_python library, in this case boost_python38-vc142-mt-x64-1_73.dll
