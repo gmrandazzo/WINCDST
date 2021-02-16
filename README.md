@@ -200,3 +200,6 @@ from multiple sources/post/links that I would like to acknowledge.
 - https://github.com/rdkit/rdkit/blob/master/Docs/Book/Install.md
 - https://github.com/rdkit/rdkit/issues/2841
 - https://stackoverflow.com/questions/20201868/importerror-dll-load-failed-the-specified-module-could-not-be-found
+
+
+![Page views](https://visitor-badge.glitch.me/badge?page_id=gmrandazzo.WINCDST)
