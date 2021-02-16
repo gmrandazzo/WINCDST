@@ -195,8 +195,8 @@ Links and inspiration
 The following information have been collected, reworked and prosed here to you
 from multiple sources/post/links that I would like to acknowledge.
 
-https://nielsberglund.com/2021/01/03/build-boost.python--numpy-in-windows/
-https://github.com/ZhangJunQCC/RDKit-Python36-Windows-Binary
-https://github.com/rdkit/rdkit/blob/master/Docs/Book/Install.md
-https://github.com/rdkit/rdkit/issues/2841
-https://stackoverflow.com/questions/20201868/importerror-dll-load-failed-the-specified-module-could-not-be-found
+- https://nielsberglund.com/2021/01/03/build-boost.python--numpy-in-windows/
+- https://github.com/ZhangJunQCC/RDKit-Python36-Windows-Binary
+- https://github.com/rdkit/rdkit/blob/master/Docs/Book/Install.md
+- https://github.com/rdkit/rdkit/issues/2841
+- https://stackoverflow.com/questions/20201868/importerror-dll-load-failed-the-specified-module-could-not-be-found
