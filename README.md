@@ -1,10 +1,9 @@
-# WINCDST: Windows Cheminformatic Data Science Toolchain
+# Windows Cheminformatics Data Science Toolchain
 
 This is a guide/tutorial/how-to aimed to help people in
-building/setting-up a "cheminformatic data science toolchain" for windows.
-It will describe the packages to install/compile in sequence and
-will guide you in getting a working and pure environment (no bloat, no conda, no choco, ...).
-Resources are important. Code bloat is always around the corner.
+building/setting-up a native "cheminformatic data science toolchain" on windows.
+The aim is to guide you in getting a working and pure environment (no software bloat, no conda, no choco, ...).
+Resources are important and you know that code bloat is always around the corner.
 
 # Packages
 - Visual Studio
