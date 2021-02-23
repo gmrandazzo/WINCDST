@@ -427,6 +427,7 @@ from multiple sources/post/links that I would like to acknowledge.
 - https://stackoverflow.com/questions/50897959/build-a-boost-project-using-cmake-in-msvc
 - https://github.com/rdkit/rdkit/pull/3714/commits/924d4acb7a2b0c54191148c4031e63ffb6b956e1
 - https://stackoverflow.com/questions/20201868/importerror-dll-load-failed-the-specified-module-could-not-be-found
+- https://bugs.python.org/issue36085
 
 
 ![Page views](https://visitor-badge.glitch.me/badge?page_id=gmrandazzo.win-cheminfds-toolchain)
