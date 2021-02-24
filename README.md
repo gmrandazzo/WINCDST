@@ -22,7 +22,7 @@ Visual Studio
 -------------
 Download and install Visual Studio Community edition from this link https://visualstudio.microsoft.com/downloads/
 
-![ScreenShot](https://github.com/gmrandazzo//blob/main/images/vs_community.png)
+![ScreenShot](https://github.com/gmrandazzo/win-cheminfds-toolchain/blob/main/images/vs_community.png)
 
 Be sure to select the Desktop development with C++ "Workload" and in individual components
 to have the latest MSVC as reported in this example:
